@@ -532,6 +532,7 @@ ul, ol {
 .hero {
     position: relative;
     min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -624,7 +625,7 @@ ul, ol {
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--space-3xl);
+    gap: clamp(2rem, 1.5rem + 3vw, 6rem);
     align-items: center;
 }
 
@@ -710,6 +711,7 @@ ul, ol {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .hero__visual-card {
@@ -723,7 +725,7 @@ ul, ol {
     border: 1px solid rgba(255, 255, 255, 0.06);
     box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05);
     width: 100%;
-    max-width: 380px;
+    max-width: clamp(280px, 20vw + 140px, 380px);
 }
 
 .hero__visual-shield {
@@ -815,13 +817,13 @@ ul, ol {
 
 .hero__visual-float--claim {
     bottom: 15%;
-    left: -20%;
+    left: clamp(-15%, -8vw, -2%);
     animation: float-up 6s ease-in-out infinite;
 }
 
 .hero__visual-float--partners {
     top: 10%;
-    right: -15%;
+    right: clamp(-12%, -6vw, -2%);
     animation: float-up 6s ease-in-out infinite 3s;
 }
 
@@ -2038,6 +2040,25 @@ body.is-loaded .hero__scroll-indicator {
 /* ============================================
    RESPONSIVE
    ============================================ */
+
+/* Medium-large screens */
+@media (max-width: 1280px) {
+    .hero__inner {
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+
+    .hero__visual-float--claim {
+        left: -5%;
+    }
+
+    .hero__visual-float--partners {
+        right: -5%;
+    }
+
+    .hero__visual-card {
+        max-width: 320px;
+    }
+}
 
 /* Tablet */
 @media (max-width: 1024px) {
