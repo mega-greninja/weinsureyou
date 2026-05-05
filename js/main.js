@@ -9,14 +9,22 @@
     const prefersReducedMotion = () =>
         window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    document.body.classList.add('is-loading');
+
     /* ============================================
-       PRELOADER
+       PRELOADER + ENTRANCE CHOREOGRAPHY
        ============================================ */
     const preloader = document.getElementById('preloader');
 
     function hidePreloader() {
         if (!preloader) return;
         preloader.classList.add('is-hidden');
+
+        setTimeout(() => {
+            document.body.classList.remove('is-loading');
+            document.body.classList.add('is-loaded');
+        }, 200);
+
         preloader.addEventListener('transitionend', () => {
             preloader.remove();
         }, { once: true });

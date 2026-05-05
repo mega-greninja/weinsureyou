@@ -347,13 +347,19 @@ ul, ol {
     align-items: center;
     justify-content: center;
     background: var(--bg-primary);
-    transition: opacity 0.5s var(--ease-out), visibility 0.5s;
+    transition: opacity 0.6s var(--ease-out) 0.15s, visibility 0.6s linear 0.15s;
 }
 
 .preloader.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.preloader.is-hidden .preloader__spinner {
+    transform: scale(0.7);
+    opacity: 0;
+    transition: transform 0.35s var(--ease-out), opacity 0.25s;
 }
 
 .preloader__spinner {
@@ -909,6 +915,65 @@ ul, ol {
 @keyframes scroll-bounce {
     0%, 100% { transform: translateY(0); opacity: 1; }
     50% { transform: translateY(12px); opacity: 0.3; }
+}
+
+/* ============================================
+   HERO ENTRANCE CHOREOGRAPHY
+   ============================================ */
+body.is-loading .hero__badge,
+body.is-loading .hero__title-line,
+body.is-loading .hero__subtitle,
+body.is-loading .hero__ctas,
+body.is-loading .hero__visual,
+body.is-loading .hero__stats,
+body.is-loading .hero__scroll-indicator {
+    opacity: 0;
+}
+
+body.is-loaded .hero__badge {
+    animation: entrance-up 0.7s var(--ease-out) 0.1s both;
+}
+
+body.is-loaded .hero__title-line:nth-child(1) {
+    animation: entrance-up 0.7s var(--ease-out) 0.25s both;
+}
+
+body.is-loaded .hero__title-line:nth-child(2) {
+    animation: entrance-up 0.7s var(--ease-out) 0.38s both;
+}
+
+body.is-loaded .hero__title-line:nth-child(3) {
+    animation: entrance-up 0.7s var(--ease-out) 0.5s both;
+}
+
+body.is-loaded .hero__subtitle {
+    animation: entrance-up 0.7s var(--ease-out) 0.6s both;
+}
+
+body.is-loaded .hero__ctas {
+    animation: entrance-up 0.8s var(--ease-out) 0.75s both;
+}
+
+body.is-loaded .hero__visual {
+    animation: entrance-scale 0.9s var(--ease-out) 0.4s both;
+}
+
+body.is-loaded .hero__stats {
+    animation: entrance-up 0.7s var(--ease-out) 1s both;
+}
+
+body.is-loaded .hero__scroll-indicator {
+    animation: entrance-up 0.5s var(--ease-out) 1.3s both;
+}
+
+@keyframes entrance-up {
+    from { opacity: 0; transform: translateY(28px); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes entrance-scale {
+    from { opacity: 0; transform: translateX(30px) scale(0.95); }
+    to { opacity: 1; transform: none; }
 }
 
 /* ============================================
