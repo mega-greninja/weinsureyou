@@ -6,7 +6,6 @@
 (function () {
     'use strict';
 
-    /* --- Utility: check reduced motion preference --- */
     const prefersReducedMotion = () =>
         window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -18,13 +17,11 @@
     function hidePreloader() {
         if (!preloader) return;
         preloader.classList.add('is-hidden');
-        // Remove from DOM after transition
         preloader.addEventListener('transitionend', () => {
             preloader.remove();
         }, { once: true });
     }
 
-    // Hide on window load, or after 3s safety timeout
     if (document.readyState === 'complete') {
         hidePreloader();
     } else {
@@ -33,13 +30,27 @@
     }
 
     /* ============================================
+       SCROLL PROGRESS BAR
+       ============================================ */
+    const scrollProgressBar = document.querySelector('.scroll-progress');
+
+    function updateScrollProgress() {
+        if (!scrollProgressBar) return;
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        if (docHeight <= 0) return;
+        scrollProgressBar.style.transform = 'scaleX(' + (scrollTop / docHeight) + ')';
+    }
+
+    window.addEventListener('scroll', updateScrollProgress, { passive: true });
+
+    /* ============================================
        NAVBAR — scroll effects & active link
        ============================================ */
     const navbar = document.getElementById('navbar');
     const navLinks = document.querySelectorAll('.navbar__link:not(.navbar__link--cta)');
     const sections = document.querySelectorAll('section[id]');
 
-    let lastScrollY = 0;
     let navTicking = false;
 
     function onNavScroll() {
@@ -49,12 +60,10 @@
         requestAnimationFrame(() => {
             const scrollY = window.scrollY;
 
-            // Scrolled state
             if (navbar) {
                 navbar.classList.toggle('is-scrolled', scrollY > 50);
             }
 
-            // Active nav link
             let currentSection = '';
             sections.forEach((section) => {
                 const top = section.offsetTop - 120;
@@ -70,7 +79,6 @@
                 }
             });
 
-            lastScrollY = scrollY;
             navTicking = false;
         });
     }
@@ -113,7 +121,6 @@
         mobileOverlay.addEventListener('click', closeMenu);
     }
 
-    // Close menu when a link is clicked
     navLinks.forEach((link) => {
         link.addEventListener('click', () => {
             if (navMenu.classList.contains('is-open')) {
@@ -122,7 +129,6 @@
         });
     });
 
-    // Close on Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && navMenu && navMenu.classList.contains('is-open')) {
             closeMenu();
@@ -137,7 +143,6 @@
         const animatedElements = document.querySelectorAll('.animate-on-scroll');
         if (!animatedElements.length) return;
 
-        // If reduced motion, show all immediately
         if (prefersReducedMotion()) {
             animatedElements.forEach((el) => el.classList.add('is-visible'));
             return;
@@ -149,7 +154,7 @@
                     if (entry.isIntersecting) {
                         const el = entry.target;
                         const stagger = el.dataset.stagger;
-                        const delay = stagger ? parseInt(stagger, 10) * 50 : 0;
+                        const delay = stagger ? parseInt(stagger, 10) * 80 : 0;
 
                         setTimeout(() => {
                             el.classList.add('is-visible');
@@ -160,8 +165,8 @@
                 });
             },
             {
-                threshold: 0.1,
-                rootMargin: '0px 0px -40px 0px',
+                threshold: 0.08,
+                rootMargin: '0px 0px -50px 0px',
             }
         );
 
@@ -177,7 +182,6 @@
         const counters = document.querySelectorAll('.hero__stat-number[data-target]');
         if (!counters.length) return;
 
-        // If reduced motion, show final values immediately
         if (prefersReducedMotion()) {
             counters.forEach((counter) => {
                 counter.textContent = counter.dataset.target;
@@ -251,7 +255,7 @@
                 const factor = (index + 1) * 0.5;
                 const x = currentX * factor;
                 const y = currentY * factor;
-                orb.style.transform = `translate(${x}px, ${y}px)`;
+                orb.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
             });
 
             if (animating) {
@@ -268,7 +272,6 @@
 
             heroSection.addEventListener('mouseleave', () => {
                 animating = false;
-                // Reset orbs smoothly
                 mouseX = 0;
                 mouseY = 0;
                 animating = true;
@@ -277,7 +280,7 @@
                     currentY = lerp(currentY, 0, 0.06);
                     orbs.forEach((orb, index) => {
                         const factor = (index + 1) * 0.5;
-                        orb.style.transform = `translate(${currentX * factor}px, ${currentY * factor}px)`;
+                        orb.style.transform = 'translate(' + (currentX * factor) + 'px, ' + (currentY * factor) + 'px)';
                     });
                     if (Math.abs(currentX) > 0.1 || Math.abs(currentY) > 0.1) {
                         requestAnimationFrame(resetLoop);
@@ -299,6 +302,61 @@
     }
 
     initHeroParallax();
+
+    /* ============================================
+       3D TILT EFFECT on cards
+       ============================================ */
+    function initTiltEffect() {
+        if (prefersReducedMotion()) return;
+        if (window.matchMedia('(pointer: coarse)').matches) return;
+
+        const cards = document.querySelectorAll('.tilt-card');
+
+        cards.forEach((card) => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -6;
+                const rotateY = ((x - centerX) / centerX) * 6;
+
+                card.style.transform = 'perspective(800px) rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg) scale3d(1.02, 1.02, 1.02)';
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = '';
+            });
+        });
+    }
+
+    initTiltEffect();
+
+    /* ============================================
+       MAGNETIC BUTTON EFFECT
+       ============================================ */
+    function initMagneticButtons() {
+        if (prefersReducedMotion()) return;
+        if (window.matchMedia('(pointer: coarse)').matches) return;
+
+        const buttons = document.querySelectorAll('.btn--glow');
+
+        buttons.forEach((btn) => {
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                btn.style.transform = 'translate(' + (x * 0.15) + 'px, ' + (y * 0.15) + 'px)';
+            });
+
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = '';
+            });
+        });
+    }
+
+    initMagneticButtons();
 
     /* ============================================
        BACK TO TOP
@@ -339,7 +397,6 @@
                 behavior: prefersReducedMotion() ? 'auto' : 'smooth',
             });
 
-            // Update URL without triggering scroll
             history.pushState(null, '', targetId);
         });
     });
@@ -354,7 +411,6 @@
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
 
-            // Basic validation
             const name = contactForm.querySelector('#contactName');
             const email = contactForm.querySelector('#contactEmail');
             const type = contactForm.querySelector('#contactType');
@@ -370,7 +426,6 @@
                 }
             });
 
-            // Email regex check
             if (email && email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
                 email.style.borderColor = '#EF4444';
                 valid = false;
@@ -378,7 +433,6 @@
 
             if (!valid) return;
 
-            // Simulate submission
             const submitBtn = contactForm.querySelector('.contact__form-submit');
             submitBtn.classList.add('is-loading');
 
@@ -390,12 +444,10 @@
                     formSuccess.classList.add('is-visible');
                 }
 
-                // Reset form after delay
                 setTimeout(() => {
                     contactForm.reset();
                     submitBtn.classList.remove('is-success');
 
-                    // Reset all field border colors
                     contactForm.querySelectorAll('.contact__form-input').forEach((input) => {
                         input.style.borderColor = '';
                     });
@@ -403,7 +455,6 @@
             }, 1500);
         });
 
-        // Clear validation styling on input
         contactForm.querySelectorAll('.contact__form-input').forEach((input) => {
             input.addEventListener('input', () => {
                 input.style.borderColor = '';
@@ -412,7 +463,7 @@
     }
 
     /* ============================================
-       PARTNERS MARQUEE — pause on focus within
+       PARTNERS MARQUEE
        ============================================ */
     const partnersTrack = document.querySelector('.partners__track');
     if (partnersTrack) {
@@ -450,10 +501,39 @@
     }
 
     /* ============================================
+       SECTION PARALLAX (subtle)
+       ============================================ */
+    function initSectionParallax() {
+        if (prefersReducedMotion()) return;
+
+        const parallaxEls = document.querySelectorAll('.parallax-bg');
+        if (!parallaxEls.length) return;
+
+        let scrollTicking = false;
+
+        window.addEventListener('scroll', () => {
+            if (scrollTicking) return;
+            scrollTicking = true;
+
+            requestAnimationFrame(() => {
+                parallaxEls.forEach((el) => {
+                    const rect = el.getBoundingClientRect();
+                    const speed = parseFloat(el.dataset.parallaxSpeed) || 0.15;
+                    const offset = rect.top * speed;
+                    el.style.transform = 'translateY(' + offset + 'px)';
+                });
+                scrollTicking = false;
+            });
+        }, { passive: true });
+    }
+
+    initSectionParallax();
+
+    /* ============================================
        INITIAL SCROLL CHECK
        ============================================ */
-    // Run scroll handlers once on load in case page is loaded scrolled down
     onNavScroll();
     toggleBackToTop();
+    updateScrollProgress();
 
 })();
