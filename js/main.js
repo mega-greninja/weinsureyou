@@ -416,21 +416,30 @@
        ============================================ */
     const partnersTrack = document.querySelector('.partners__track');
     if (partnersTrack) {
-        const items = partnersTrack.querySelectorAll('.partners__item');
-        const half = items.length / 2;
-        if (items.length <= 25) {
-            items.forEach(item => {
-                const clone = item.cloneNode(true);
-                partnersTrack.appendChild(clone);
-            });
+        let pos = 0;
+        let paused = false;
+        const speed = 0.8;
+
+        const halfWidth = partnersTrack.scrollWidth / 2;
+
+        function scrollMarquee() {
+            if (!paused) {
+                pos -= speed;
+                if (Math.abs(pos) >= halfWidth) pos = 0;
+                partnersTrack.style.transform = 'translateX(' + pos + 'px)';
+            }
+            requestAnimationFrame(scrollMarquee);
         }
 
-        partnersTrack.addEventListener('focusin', () => {
-            partnersTrack.style.animationPlayState = 'paused';
-        });
-        partnersTrack.addEventListener('focusout', () => {
-            partnersTrack.style.animationPlayState = '';
-        });
+        const marqueeEl = document.querySelector('.partners__marquee');
+        if (marqueeEl) {
+            marqueeEl.addEventListener('mouseenter', () => { paused = true; });
+            marqueeEl.addEventListener('mouseleave', () => { paused = false; });
+        }
+        partnersTrack.addEventListener('focusin', () => { paused = true; });
+        partnersTrack.addEventListener('focusout', () => { paused = false; });
+
+        requestAnimationFrame(scrollMarquee);
     }
 
     /* ============================================

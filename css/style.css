@@ -1150,12 +1150,7 @@ ul, ol {
     display: inline-flex;
     gap: 12px;
     white-space: nowrap;
-    animation: marquee 18s linear infinite;
     will-change: transform;
-}
-
-.partners__track:hover {
-    animation-play-state: paused;
 }
 
 .partners__item {
@@ -1194,10 +1189,6 @@ ul, ol {
     color: var(--text-secondary);
 }
 
-@keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-}
 
 /* ============================================
    TESTIMONIALS
@@ -1871,10 +1862,6 @@ ul, ol {
     .animate-on-scroll {
         opacity: 1;
         transform: none;
-    }
-
-    .partners__track {
-        animation: none;
     }
 
     .hero__orb {
