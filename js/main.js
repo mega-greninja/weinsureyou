@@ -419,11 +419,18 @@
         let pos = 0;
         let paused = false;
         const speed = 0.8;
+        let halfWidth = 0;
 
-        const halfWidth = partnersTrack.scrollWidth / 2;
+        function recalcWidth() {
+            halfWidth = partnersTrack.scrollWidth / 2;
+        }
+
+        recalcWidth();
+        window.addEventListener('load', recalcWidth);
+        window.addEventListener('resize', recalcWidth);
 
         function scrollMarquee() {
-            if (!paused) {
+            if (!paused && halfWidth > 0) {
                 pos -= speed;
                 if (Math.abs(pos) >= halfWidth) pos = 0;
                 partnersTrack.style.transform = 'translateX(' + pos + 'px)';
