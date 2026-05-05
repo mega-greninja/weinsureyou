@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/owl-carousel/css/owl.carousel.2.3.4.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/fonts.googleapis.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/regular.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/solid.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/brands.min.css" />
+    <link rel="stylesheet" href="/lib/toastr/css/toastr.2.1.3.min.css" />
+    <link rel="stylesheet" href="/lib/mag-popup/css/magnific-popup.1.1.0.min.css" />
+    <link rel="stylesheet" href="/lib/select2/css/select2.4.1.0-rc.min.css" />
+    <link rel="stylesheet" href="/lib/token-input/dist/css/token-input.css" />
+    <link rel="stylesheet" href="/lib/summernote/css/summernote-bs5.0.8.20.min.css" />
+    <link rel="stylesheet" href="/lib/simple-pagination/css/simplePagination.css" />
+    <link rel="stylesheet" href="/sites/default/css/site.css?v=Uc4lLGHy0qBj81XfTt9NK-RRNOIC70PEXVSET448abk" />
+    <link rel="stylesheet" href="/lib/jquery/dist/jquery-ui.css" />
+<link rel="stylesheet" href="/uploads/css/keyframe.css" />
+<link rel="stylesheet" href="/uploads/css/style.css" />
+<link rel="stylesheet" href="/uploads/css/media.css" />
+<link rel="stylesheet" href="/uploads/css/nav.css" />
+<link rel="stylesheet" href="/lib/font-awesome/css/fonts.googleapi2.css" />
+<link rel="stylesheet" href="/uploads/css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="/uploads/css/checkbox.css" />
+<link rel="stylesheet" href="/uploads/css/radio-button.css" />
+<link rel="stylesheet" href="/uploads/css/common_changes.css" />
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+            <title>Raheja QBE</title>
+	<meta name="google-site-verification" content="_ReFqVjdWSe6BrX5vwJS8ORRsFB64G1MmArNRxqfG3E" />
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<!-- Google Tag Manager -->
+	<script nonce="secure">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MW4L22H');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLXDPBF50Y"></script> 
+	<script nonce="secure"> 
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);} 
+		gtag('js', new Date()); 
+		
+		gtag('config', 'G-WLXDPBF50Y'); 
+	</script>
+    <script nonce="secure">
+        window.appSettings = {"cloudHost":null,"ApplicationName":null,"FaviconUrl":null};
+    </script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW4L22H" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div class="ajax-loader"><img src="/img/loading.gif" /></div>
+    <header>
+<style>*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}#success{color:green;}#errormsg{color:red;}#ic7esp{opacity:1;}#contentDcd1{display:none;}</style>    <div class="logoMenuSec"><nav class="navbar navbar-expand-lg navbar-light bg-light py-0 px-3 px-md-0"><div class="container"><div class="logo-outer"><a class="navbar-brand p-0" href="/"><img src="/uploads/images/logo-ls-26.jpg" alt="logo" title="logo" class="img-fluid" /></a></div><div id="navbarNav" class="collapse navbar-collapse"><ul class="navbar-nav ms-auto"><li class="nav-item position-static"><a data-bs-toggle="collapse" class="nav-link" href="#">
+				Home
+			  </a><div id="collapse-mob-1" class="dropdown-menu mega-menu border-0 m-0"><div class="container p-0"><div class="row no-gutters"><div class="col-lg-7 col-xl"><div class="row no-gutters mega-menu-list"><div class="col-lg-6"><ul class="list-unstyled"><li id="1" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/about-us">About Us</a></h5><p class="d-none d-lg-block">Understand us better
+							  </p><a class="mt-1 d-none d-lg-block" href="/about-us">Explore</a></li><li id="2" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/about-us/leadership">Leadership</a></h5><p class="d-none d-lg-block">Meet our leadership team
+							  </p><a class="mt-1 d-none d-lg-block" href="/about-us/leadership">Explore</a></li></ul></div><div class="col-lg-6"><ul class="list-unstyled"><li id="3" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/board-of-directors">Board of Directors</a></h5><p class="d-none d-lg-block">Right decision making is the key
+							  </p><a class="mt-1 d-none d-lg-block" href="/board-of-directors">Explore</a></li><li id="4" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/careers">Careers</a></h5><p class="d-none d-lg-block">Join the path of progress
+							  </p><a class="mt-1 d-none d-lg-block" href="/careers">Explore</a></li></ul></div></div></div><div class="col-lg-5 col-xl-auto ps-lg-3 ps-xl-4 d-none d-lg-block"><ul class="list-unstyled mega-menu-banner"><li class="common-banner banner-active"><img src="/uploads/images/about-us-img/home-img-cmn.jpg" class="img-fluid" /></li><li id="banner-1"><img src="/uploads/images/about-us-img/home-img-01.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-2"><img src="/uploads/images/about-us-img/home-img-02.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-3"><img src="/uploads/images/about-us-img/home-img-03.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-4"><img src="/uploads/images/about-us-img/home-img-04.jpg" alt="" title="" class="img-fluid" /></li></ul></div></div></div></div></li><li class="nav-item position-static"><a data-bs-toggle="collapse" class="nav-link" href="#">Personal</a><div id="collapse-mob-2" class="dropdown-menu mega-menu border-0 m-0"><div class="container p-0"><div class="row no-gutters"><div class="col-lg-7 col-xl"><div class="row no-gutters mega-menu-list"><div class="col-lg-6"><ul class="list-unstyled"><li id="5" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/health-insurance">Health Insurance</a></h5><p class="d-none d-lg-block">
+								Helping people live a
+								<br/>
+								secure life
+							  </p><a class="mt-1 d-none d-lg-block" href="/health-insurance">Explore</a></li><li id="6" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/home-insurance">Home Insurance</a></h5><p class="d-none d-lg-block">
+								Your home is precious,
+								<br/>
+								keep it safe
+							  </p><a class="mt-1 d-none d-lg-block" href="/home-insurance">Learn More</a></li></ul></div><div class="col-lg-6"><ul class="list-unstyled"><li id="7" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/motor-insurance">Motor Insurance</a></h5><p class="d-none d-lg-block">
+								Keep yourself secure on
+								<br/>
+								wheels
+							  </p><a class="mt-1 d-none d-lg-block" href="/motor-insurance">Explore</a></li><li class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5 distri"><button id="linkDcd1" class="colorLightBlue distri-btn d-flex align-items-baseline">
+								Distribution Channel Details <i class="fa-solid fa-angle-down">
+								</i></button><ul id="contentDcd1"><li><a target="_blank" href="/uploads/images/distribution-channel-details/corporate-agent-list.pdf"><span>Corporate Agent List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/imf-list.pdf"><span>IMF List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/individual-agent-list.pdf"><span>Individual Agent List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/misp-list.pdf"><span>MISP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/posp-list.pdf"><span>POSP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/terminated-posp-list.pdf"><span>Terminated POSP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/web-aggregator-list.pdf"><span>Web Aggregator List</span></a></li></ul></li></ul></div></div></div><div class="col-lg-5 col-xl-auto ps-lg-4 mt-3 mt-lg-0 d-none d-lg-block"><ul class="list-unstyled mega-menu-banner"><li class="common-banner banner-active"><img src="/uploads/images/about-us-img/nav-pl-img-cmn.jpg" class="img-fluid" /></li><li id="banner-5"><img src="/uploads/images/about-us-img/nav-pl-img-01.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-6"><img src="/uploads/images/about-us-img/nav-pl-img-02.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-7"><img src="/uploads/images/about-us-img/nav-pl-img-03.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-8"><img src="/uploads/images/about-us-img/nav-pl-img-04.jpg" alt="" title="" class="img-fluid" /></li></ul></div></div></div></div></li><li class="nav-item"><a data-bs-toggle="collapse" class="nav-link" href="#">Commercial</a><div id="collapse-mob-3" class="dropdown-menu mega-menu border-0 m-0"><div class="container p-0"><div class="row no-gutters"><div class="col-lg-7 col-xl"><div class="row no-gutters mega-menu-list"><div class="col-lg-6"><p id="i44n1n"><a target="_blank" id="iu3iso" href="/uploads/images/list-of-base-products-commercial.pdf">
+							  List of Base Product
+							</a></p><ul class="list-unstyled"><li id="9" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/commercial-packages-insurance">Package Policy</a></h5><p class="d-none d-lg-block">
+								We cover your office
+								<br/>
+								assets completely
+							  </p><a class="mt-1 d-none d-lg-block" href="/commercial-packages-policy">Read More</a></li><li id="10" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/commercial-property-insurance">Commercial Property</a></h5><p class="d-none d-lg-block">
+								Take care of any physical
+								<br/>
+								damage at your workplace
+							  </p><a class="mt-1 d-none d-lg-block" href="/commercial-property-insurance">Read More</a></li><li id="11" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/workers-compensation-insurance">Workers Compensation</a></h5><p id="i0fjg3">(This is a base product)
+							  </p><p class="d-none d-lg-block">
+								Be always prepared for any
+								<br/>
+								workplace injury
+							  </p><a class="mt-1 d-none d-lg-block" href="/workers-compensation-insurance">Read More</a></li><li id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/miscellaneous-insurance">Miscellaneous</a></h5><p class="d-none d-lg-block">
+								Safeguard your money
+								<br/>
+								while transferring it
+							  </p><a class="mt-1 d-none d-lg-block" href="/miscellaneous-insurance">Read More</a></li><li id="12-2" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/sme-business-package-policy">SME Business Package Policy</a></h5><p class="d-none d-lg-block">
+								Shield against various risks
+								<br/>
+								and businesses.
+							  </p><a class="mt-1 d-none d-lg-block" href="/sme-business-package-policy">Read More</a></li><li id="12-3" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/staff-recruiting-agent-surety-bond">Staff/Recruiting Agent Surety Bond</a></h5><p class="d-none d-lg-block">Transfer risk for a business entity
+							  </p><a class="mt-1 d-none d-lg-block" href="/staff-recruiting-agent-surety-bond">Read More</a></li><li id="12-4" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/buyers-warranty-indemnity-insurance-policy-excess">Buyers Warranty Indemnity Insurance Policy - Excess</a></h5><a class="mt-1 d-none d-lg-block" href="/buyers-warranty-indemnity-insurance-policy-excess">Read More</a></li><li id="12-4-2" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/buyers-warranty-indemnity-insurance-policy-excess">Surety Bond Insurance</a></h5><a class="mt-1 d-none d-lg-block" href="/surety-bond">Read More</a></li><li id="12-4-3" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/buyers-warranty-indemnity-insurance-policy-excess">Insolvency Liability Risk Insurance Policy</a></h5><a class="mt-1 d-none d-lg-block" href="/insolvency-liability-risk-insurance">Read More</a></li></ul></div><div class="col-lg-6"><ul class="list-unstyled"><li id="13" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/construction-and-engineering-insurance">Construction &amp; Engineering</a></h5><p class="d-none d-lg-block">
+								Don’t let anything impact
+								<br/>
+								your engineering projects
+							  </p><a class="mt-1 d-none d-lg-block" href="/construction-and-engineering-insurance">Read More</a></li><li id="14" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/general-liability-insurance">General Liability</a></h5><p class="d-none d-lg-block">
+								Protect yourself from
+								<br/>
+								any business risks
+							  </p><a class="mt-1 d-none d-lg-block" href="/general-liability-insurance">Read More</a></li><li id="15" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/marine-insurance">Marine</a></h5><p class="d-none d-lg-block">
+								Choose the best plan for
+								<br/>
+								your ships and cargos
+							  </p><a class="mt-1 d-none d-lg-block" href="/marine-insurance">Read More</a></li><li id="16" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/professional-liability-insurance">Professional Liability</a></h5><p class="d-none d-lg-block">
+								Cover yourself from
+								<br/>
+								any legal cases
+							  </p><a class="mt-1 d-none d-lg-block" href="/professional-liability-insurance">Read More</a></li><li id="14-2" data-id="14" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/sme-liability-package-policy">SME Liability Package Policy</a></h5><p id="ieal6z">(This is a base product)
+							  </p><p class="d-none d-lg-block">
+								Shield against various risks
+								<br/>
+								and liabilities.
+							  </p><a class="mt-1 d-none d-lg-block" href="/sme-liability-package-policy">Read More</a></li><li id="12-5" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/buyers-warranty-indemnity-insurance-policy">Buyers Warranty Indemnity Insurance Policy</a></h5><a class="mt-1 d-none d-lg-block" href="/buyers-warranty-indemnity-insurance-policy">Read More</a></li><li id="12-7" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/kidnap-and-ransom-protection-policy">Kidnap And Ransom Protection Policy</a></h5><a class="mt-1 d-none d-lg-block" href="/kidnap-and-ransom-protection-policy">Read More</a></li><li id="12-6" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/multimedia-professional-indemnity-insurance-policy">Multimedia Professional Indemnity Insurance Policy </a></h5><p id="itpdcd">(This is a base product)
+							  </p><a class="mt-1 d-none d-lg-block" href="/multimedia-professional-indemnity-insurance-policy">Read More</a></li><li id="17" data-id="12" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/multimedia-professional-indemnity-insurance-policy">Raheja QBE Qcyber Protect Insurance Policy </a></h5><a class="mt-1 d-none d-lg-block" href="/qcyber-protect-insurance-policy">Read More</a></li></ul></div></div></div><div class="col-lg-5 col-xl-auto ps-lg-4 mt-3 mt-lg-0 d-none d-lg-block"><ul class="list-unstyled mega-menu-banner"><li class="common-banner banner-active"><img src="/uploads/images/about-us-img/nav-cl-img-cmn.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-9"><img src="/uploads/images/about-us-img/nav-cl-img-01.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-10"><img src="/uploads/images/about-us-img/nav-cl-img-02.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-11"><img src="/uploads/images/about-us-img/nav-cl-img-03.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-12"><img src="/uploads/images/about-us-img/nav-cl-img-04.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-13"><img src="/uploads/images/about-us-img/nav-cl-img-05.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-14"><img src="/uploads/images/about-us-img/nav-cl-img-06.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-15"><img src="/uploads/images/about-us-img/nav-cl-img-07.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-16"><img src="/uploads/images/about-us-img/nav-cl-img-08.jpg" alt="" title="" class="img-fluid" /></li></ul></div></div></div></div></li><li class="nav-item"><a data-bs-toggle="collapse" class="nav-link" href="/claims">Claims</a><div id="collapse-mob-4" class="dropdown-menu mega-menu border-0 m-0"><div class="container p-0"><div class="row no-gutters"><div class="col-lg-7 col-xl"><div class="row no-gutters mega-menu-list"><div class="col-lg-6"><ul class="list-unstyled"><li id="17-2" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/claims/health-claims">Health Claims</a></h5><p class="d-none d-lg-block text-nowrap">Hassle free claims process!
+							  </p><a class="mt-1 d-none d-lg-block" href="/claims/health-claims">Explore</a></li></ul></div><div class="col-lg-6"><ul class="list-unstyled"><li id="18" class="p-2 py-lg-4 px-lg-3 rounded position-relative ms-lg-4 ms-xl-5"><h5 class="colorLightBlue"><a href="/claims/motor-claims">Motor Claims</a></h5><p class="d-none d-lg-block">Experience ease of claims!
+							  </p><a class="mt-1 d-none d-lg-block" href="/claims/motor-claims">Explore</a></li></ul></div><div class="col-lg-6"><ul class="list-unstyled"><li id="18-2" data-id="18" class="p-2 py-lg-4 px-lg-3 rounded position-relative me-lg-4 me-xl-5"><h5 class="colorLightBlue"><a href="/claims/motor-claims">Commercial Lines Claims</a></h5><!-- <p class="d-none d-lg-block">Experience ease of claims! </p> --><a target="_blank" id="ihnlbp" class="mt-1 d-lg-block" href="https://mot.rqbeonline.co.in/DCF/WebsiteClaimStatus/?isM=f">Click here</a> to track you claim status
+							  <a target="_blank" id="ic7esp" class="mt-1 d-lg-block" href="https://mot.rqbeonline.co.in/DCF/Policy/ClaimsPolicyServicing">Click here</a> to Register a Claim
+							</li></ul></div></div></div><div class="col-lg-5 col-xl-auto ps-lg-4 mt-3 mt-lg-0 d-none d-lg-block"><ul class="list-unstyled mega-menu-banner"><li class="common-banner banner-active"><img src="/uploads/images/about-us-img/claim-main.png" class="img-fluid" /></li><li id="banner-17"><img src="/uploads/images/about-us-img/health-claim.jpg" alt="" title="" class="img-fluid" /></li><li id="banner-18"><img src="/uploads/images/about-us-img/motor-claim.png" alt="" title="" class="img-fluid" /></li></ul></div></div></div></div></li><li class="nav-item"><a class="nav-link" href="/intermediaries">Intermediaries</a></li><li class="nav-item d-xl-flex align-items-center contact-info"><div class="phoneEmailSec"><div class="phoneIconTxt"><span><img src="/uploads/images/phone-icon.png" /></span><a href="tel:18001027723">18001027723</a></div><div class="emailIconTxt"><span><img src="/uploads/images/email-icon.png" /></span><a href="mailto:customercare@rahejaqbe.com">
+					customercare@rahejaqbe.com
+				  </a></div></div></li></ul></div></div></nav></div><div class="rightSideBarMain"><div class="fixedDiceBtn"><div class="fixedinrpopup active"><span class="dicebutton"><a class="quickLeftArrow" href="javascript:void(0);"><img src="/uploads/images/dicebtn.png" id="iqk1wf" /></a><a class="quickRightArrow" href="javascript:void(0);"><img src="/uploads/images/dicebtn2.png" id="imtk9p" /></a></span><div class="quickMenuBox"><!-- <div class="crossBtn"><a href="javascript:void(0);"><img src="/uploads/images/cross.png"></a></div> --><ul><li><a href="/contact-us"><img src="/uploads/images/popIcon1.png" /><span>Contact Us</span></a></li><li><a href="/hospital-locator"><img src="/uploads/images/popIcon2.png" /><span>
+				Hospital <br/>
+				Locator
+				</span></a></li><li><a href="/garage-locator"><img src="/uploads/images/popIcon3.png" /><span>
+				Garage <br/>
+				Locator
+				</span></a></li><li><a href="/claims"><img src="/uploads/images/popIcon4.png" /><span>
+				Register <br/>
+				a Claim
+				</span></a></li><li><a href="/grievance-redressal"><img src="/uploads/images/popIcon4.png" /><span>
+				Register<br/>
+				Complaint With Us
+				</span></a></li><!-- <li> --><!-- <a href="https://bimabharosa.irdai.gov.in/home/home"><img src="/uploads/images/popicon7.jpg" class="bimabarosa-img"/></a> --><!-- </li> --><!-- <li> --><!-- <a href="https://mot.rqbeonline.co.in/DCF/Policy/CRMPolicyServicing"><img src="/uploads/images/PolicyServicing.png" class="bimabarosa-img"/></a> --><!-- </li> --><!-- <li> --><!-- <a href="https://mot.rqbeonline.co.in/DCF/Policy/CRMPolicyServicing"><img src="/uploads/images/PolicyServicing-u.png" class="bimabarosa-img"/><span> --><!-- Policy<br/> --><!-- Servicing --><!-- </span></a> --><!-- </li> --><li><a target="_blank" href="https://mot.rqbeonline.co.in/DCF/Policy/CRMPolicyServicing"><span>
+				Policy<br/>
+				Servicing
+				</span></a></li></ul></div><div class="horizonLine1">
+		</div><div class="horizonLine2">
+		</div><div class="verticalLine">
+		</div></div></div></div><div class="callback_popup"><a class="close_pop" href="javascript:void(0);"><img src="/uploads/images/cross-search.png" alt="" /></a><h3>Let us call you back
+	</h3><p>Please provide your details. We will get back to you in a short time.
+	</p><form id="callBackForm"><div class="form-group"><input name="name" id="name" class="form-control" type="text" /><span class="floating-label">Name*</span></div><div class="form-group"><input name="mobile" id="mobilenumber" maxlength="10" class="form-control" type="text" /><span class="floating-label">Mobile Number*</span></div><div class="form-group"><label>Preferred time to call</label><ul class="time_list"><li><div class="styled_select"><span class="lbl">Hour</span><select name="hour" id="hour" class="form-control" tagname="select"><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></div></li><li><div class="styled_select"><span class="lbl">Minutes</span><select name="minutes" id="minutes" class="form-control" tagname="select"><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option></select></div></li><li><div class="styled_select"><select name="median" id="median" class="form-control" tagname="select"><option value="AM">AM</option><option value="PM">PM</option></select></div></li></ul></div><div class="form-group"><div class="styled_select"><select name="product" id="product" class="form-control" tagname="select"><option value="">Select product*</option><option value="Health Insurance">Health Insurance</option><option value="Motor Insurance">Motor Insurance</option><option value="Commercial Insurance">Commercial Insurance</option><option value="Others">Others</option></select></div></div><div class="form-group"><label>Query</label><textarea placeholder="Type your question here" name="query" id="query" class="form-control"></textarea></div><div class="form-group"><label class="checkBoxMain"><input name="agreement" id="agreement" type="checkbox" /><span class="checkmark"></span> I accept to be contacted even if I'm registered on NDNC registry </label></div><div class="form-group"><input id="submitQuery" value="Submit" class="btn" type="submit" /></div><div id="success">
+	  </div><div id="errormsg">
+	  </div></form></div><div class="getQuoteMobForm"><span><img src="/uploads/images/cross-btn.jpg" /></span><ul><li><a href="/contact-us"><img src="/uploads/images/popIcon1.png" /><span>Contact Us</span></a></li><li><a href="/hospital-locator"><img src="/uploads/images/popIcon2.png" /><span>Hospital Locator</span></a></li><li><a href="/garage-locator"><img src="/uploads/images/popIcon3.png" /><span>Garage Locator</span></a></li><li><a href="/claims"><img src="/uploads/images/popIcon4.png" /><span>Register a Claim</span></a></li><li><a class="req_btn" href="javascript:void(0);"><img src="/uploads/images/popIcon5.png" /><span>Request a Call Back</span></a></li><li><a href="/customer-feedback"><img src="/uploads/images/popIcon6.png" /><span>Customer Feedback</span></a></li></ul></div><div class="mobileNavigation"><div class="container"><div class="contactGetQuote"><div class="callIconMob"><a href="tel:&#x2B;022-69155050"><img src="/uploads/images/call-icon.png" /></a></div><div class="getQuoteTxt"><a href="javascript:void(0);">Quick Links</a></div></div><div class="rightSection"><div data-bs-toggle="collapse" data-bs-target="#navbarNav" class="menutogglebtn"><span></span><span></span><span></span></div></div></div></div><div class="popOverlay">
+  </div><!-- /Section Added and changes - 03-April-20 --><script nonce="secure">
+	function alpha(e) {
+	  var k;
+	  document.all ? (k = e.keyCode) : (k = e.which);
+	  return (k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32 || (k >= 48 && k <= 57);
+	}
+	$("#linkDcd1").click(function(){
+	  $("#contentDcd1").toggle(300);
+	}
+						);
+  </script>    </header>
+    <main role="main" class="">
+        <style></style>    <section class="breadCrumbSec"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li aria-current="page" class="breadcrumb-item active">404</li></ol></nav></div></section><section class="buyNowMain reviewDetailPage"><div class="container"><div class="thankyouContainer errorPageContent"><div class="failurePageContent"><h3 class="headingStagB colorLightBlue alignCenter">This page isn't available</h3><p>We're sorry. The Web address you entered is not a functioning page on our site.</p><p>Go to Raheja QBE's <a href="/">Home Page</a></p></div></div></div></section><section class="serviceSec section"><div class="container"><div class="row"><div class="col-12"><div class="serviceBg padTB55"><div class="row"><div class="col-12"><h3 class="headingStagB colorLightBlue mB30 text-center">Products we offer</h3></div></div><div class="row"><div class="col-12 col-sm-12 col-md-6 col-xl-3"><div class="servicesBox"><div class="card h-100 bg-transparent border-0"><div class="card-body p-0"><h4 class="mB15"> <i><img src="/uploads/images/insurance-icon1.png" /></i><span>Health <br/>
+
+                                                        Insurance</span> </h4><p>Secure your health and
+                                                    peace of mind</p></div><a class="linkCommon mT15" href="/health-insurance"><span>Know
+                                                    More</span> </a></div></div></div><div class="col-12 col-sm-12 col-md-6 col-xl-3"><div class="servicesBox"><div class="card h-100 bg-transparent border-0"><div class="card-body p-0"><h4 class="mB15"> <i><img src="/uploads/images/insurance-icon2.png" /></i><span>Motor
+                                                        <br/>
+                                                        Insurance</span> </h4><p>There is no reverse gear
+                                                    from vehicle damage</p></div><a class="linkCommon mT15" href="/motor-insurance"><span>Know
+                                                    More</span> </a></div></div></div><div class="col-12 col-sm-12 col-md-6 col-xl-3"><div class="servicesBox"><div class="card h-100 bg-transparent border-0"><div class="card-body p-0"><h4 class="mB15"> <i><img src="/uploads/images/insurance-icon3.png" /></i><span>Home<br/>
+                                                        Insurance</span> </h4><p>Get coverage for the roof that
+                                                    covers you</p></div><a class="linkCommon mT15" href="/home-insurance"><span>Know
+                                                    More</span> </a></div></div></div><div class="col-12 col-sm-12 col-md-6 col-xl-3"><div class="servicesBox"><div class="card h-100 bg-transparent border-0"><div class="card-body p-0"><h4 class="mB15"> <i><img src="/uploads/images/insurance-icon4.png" /></i><span>Package <br/>Policy
+                                              </span> </h4><p>Get coverage for your office and commercial assets</p></div><a class="linkCommon mT15" href="/commercial-packages-policy"><span>Know
+                                            More</span> </a></div></div></div></div></div></div></div></div></section>
+    </main>
+
+    <footer class="footer">
+<style>*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}#contentDcd{display:none;}.tcolor{color:white;}.l-color{color:white;text-decoration-line:none;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;}#ikigkv{list-style-position:initial;list-style-image:initial;list-style-type:disc;margin-top:10px;margin-right:0px;margin-bottom:0px;margin-left:25px;font-weight:400;}</style>    <footer id="icws"><section class="blueLightBg padTB55"><div class="container"><div class="row"><div class="col-12 col-sm-12 col-md-3"><div class="quarterFoot"><h3>Company
+			  </h3><ul><li><a href="/about-us"><span>About Us</span></a></li><li><a href="/board-of-directors"><span>Board of Directors</span></a></li><li><a href="/careers"><span>Careers</span></a></li><li><a href="/media-center"><span>Media Center</span></a></li><li><a target="_blank" href="/media-corner"><span>Media Corner</span></a></li><li><a href="/intermediaries"><span>Intermediaries</span></a></li><li><a href="/aggregator"><span>Account Aggregator Details</span></a></li><li><button id="linkDcd">Distribution Channel Details <img src="/uploads/images/caret-down.svg" alt="" width="14px" /></button><ul id="contentDcd"><li><a target="_blank" href="/uploads/images/distribution-channel-details/corporate-agent-list-v01.pdf"><span>Corporate Agent List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/imf-list-v01.pdf"><span>IMF List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/individual-agent-list-v01.pdf"><span>Individual Agent List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/misp-list-v01.pdf"><span>MISP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/posp-list-v01.pdf"><span>POSP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/terminated-posp-list-v01.pdf"><span>Terminated POSP List</span></a></li><li><a target="_blank" href="/uploads/images/distribution-channel-details/web-aggregator-list-v01.pdf"><span>Web Aggregator List</span></a></li></ul></li><li><a href="/sitemap"><span>Sitemap</span></a></li></ul></div></div><div class="col-12 col-sm-12 col-md-3"><div class="quarterFoot"><h3>Support
+			  </h3><ul id="ifidc"><li id="ix51i"><a id="ijvln" href="/grievance-redressal"><span>Grievance Redressal</span></a></li><li id="ix51i-2"><a id="ijvln-2" target="_blank" href="https://mot.rqbeonline.co.in/DCF/Policy/CRMPolicyServicing">Policy Servicing</a></li><li><a target="blank" href="https://mot.rqbeonline.co.in/DCF/Feedback"><span>Feedback</span></a></li><li><a href="/contact-us"><span>Contact Us</span></a></li><!-- <li><a href="/uploads/images/nodal-officer/pdf/details-of-nodal-officer-for-mact-final.pdf" target="_blank"><span>Details of Nodal Officer for Legal/TP Claims </span></a></li> --><li><a target="_blank" href="/uploads/images/nodal-officer/pdf/Details_of_Nodal_Officer_for_MACT.pdf"><span>Details of Nodal Officer for Legal/TP Claims </span></a></li><li><a href="/unclaimed-amount"><span>Unclaimed Amount</span></a></li><li><a href="/branch-locator"><span>Branch Locator</span></a></li><li><a href="/garage-locator"><span id="ib556j">Garage Locator</span></a></li><li id="iw6hbk"><a id="iazbnz" href="/hospital-locator"><span>Hospital Locator</span></a></li><li><a href="/premium-calculator"><span>Premium Calculator</span></a></li><li><a href="/blog"><span>Blog</span></a></li><li><a target="_blank" href="https://irdai.gov.in/"><span id="ip7zor">IRDAI Website</span></a></li><!--<li><a href="/covid-19"><span>COVID-19 Assistance</span></a></li>
+<li><a href="/uploads/images/Nivar-Cyclone-Assistance.pdf" target="_blank"><span>Nivar Cyclone Assistance</span></a></li>
+<li><a href="/uploads/images/liability-product-list-final.xlsx"><span>Product List (Liability)</span></a></li>
+<li><a href="/uploads/images/motor-product-list-final.xlsx"><span>Product List (Motor)</span></a></li>--><li><a target="_blank" href="/uploads/images/list-of-products-active-v02.pdf"><span id="im9o1l">List of Products</span></a></li><li><a target="_blank" href="/uploads/images/list-of-base-products.pdf"><span>Base Product List</span></a></li><li><a href="/claims-settlement-ratio"><span>Claims Settlement Ratio</span></a></li><li><a target="_blank" href="/uploads/images/grievance-redressal/citizen-charter-oct-2024.pdf"><span>Citizen Charter</span></a></li><li><a target="_blank" href="https://www.gicouncil.in/"><span>General Insurance Council</span></a></li><li><a target="_blank" href="https://rahejaqbe.com/digilocker"><span>Digilocker</span></a></li></ul></div></div><div class="col-12 col-sm-12 col-md-3"><div class="quarterFoot"><h3>Legal
+			  </h3><ul><li><a href="/public-disclosures"><span>Public Disclosure</span></a></li><li><a href="/privacy-policy"><span>Privacy Policy</span></a></li><li><a href="/terms-and-conditions"><span>Terms and Conditions</span></a></li><li><a href="/compliance"><span>Compliance</span></a></li><li><a href="/uploads/images/PF-FORM/RAHEJA-FORM-5A-EXTRACT-v01.pdf"><span>PF Form</span></a></li><!-- <li><a href="/test-page"><span>Lead</span></a></li> --></ul></div></div><div class="col-12 col-sm-12 col-md-3"><div class="quarterFootLast"><h3>Connect with us
+			  </h3><ul><li><a target="_blank" href="https://www.facebook.com/RahejaQBE/"><img src="/uploads/images/fb-icon-home.png" /></a></li><li><a target="_blank" href="https://twitter.com/rqbegi?lang=en"><img src="/uploads/images/twitter-icon-home.png" /></a></li><li><a target="_blank" href="https://www.instagram.com/rahejaqbe/?en"><img src="/uploads/images/insta-icon-home.png" /></a></li><li><a target="_blank" href="https://www.linkedin.com/company/rahejaqbegi/"><img src="/uploads/images/linkedin-icon-home.png" /></a></li></ul></div></div></div></div></section><section class="copyRightSec blueDarkBg"><div class="container"><div class="row"><div class="col-12 tcolor"><p>Copyright © 2020 rahejaqbe.com. All Rights Reserved
+			</p><p id="iee9yi">Raheja QBE General Insurance Company Limited, CIN: U66030MH2007PLC173129, IRDAI Registration Number: 141 (Category - Non-Life), Registered Office - Fulcrum, 501 &amp; 502, A wing, 5th Floor, International Airport project road,Sahar, Andheri East, Mumbai-400059. Website - 
+			  <a target="_blank" class="l-color" href="http://www.rahejaqbe.com">http://www.rahejaqbe.com</a>, Service mail ID - 
+			  <a class="l-color" href="mailto:customercare@rahejaqbe.com">customercare@rahejaqbe.com</a>, Reg office landline number - 022 69155050, Toll free number - 1800 102 7723 (Monday to Saturday, 9 am to 8 pm), Trade logo displayed belongs to R Raheja Investments Pvt. Ltd. &amp; QBE Insurance Group Ltd. and used by Raheja QBE General Insurance Company Limited under License. Insurance is the subject matter of solicitation. For more details on risk factors, terms and conditions, please read the sales brochure/policy wording before concluding a sale.
+			</p><p>Prohibition of Rebates
+			</p><p>Section 41 of the Insurance Act, 1938 as amended by Insurance Laws (Amendment) Act, 2015.
+			</p><ul id="ikigkv"><li>No person shall allow or offer to allow, either directly or indirectly, as an inducement to any person to take out or renew or continue an insurance in respect of any kind of risk relating to lives or property in India, any rebate of the whole or part of the commission payable or any rebate of the premium shown on the policy, nor shall any person taking out or renewing or continuing a policy accept any rebate, except such rebate as may be allowed in accordance with the published prospectuses or tables of the insurer.
+			  </li><li>Any person making default in complying with the provisions of this section shall be liable for a penalty which may extend to ten lakh rupees.
+			  </li></ul><p>
+			  Source: Certified as Great Place to Work by the Great Place to Work Institute in June 25.
+			</p></div></div></div></section></footer><script type="text/javascript" nonce="secure">
+	// $('body').on('focus',".datepicker", function(){
+	//     $(this).datepicker();
+	// });
+	$(document).ready(function(){
+	  $(document).find(".datepicker").datepicker(
+		{
+		  buttonImageOnly: true,
+		  changeMonth: true,
+		  dateFormat: 'mm/dd/yy',
+		  yearRange: '-110:-0',
+		  maxDate: 0,
+		  //minDate: new Date(1900, 1 - 1, 1),
+		  //maxDate: '-18Y',
+		  changeYear: true,
+		  //defaultDate: new Date(new Date().getFullYear() - 18, new Date().getMonth(), new Date().getDate()),
+		  buttonText: "Select date"
+		}
+	  );
+	  $("#linkDcd").click(function(){
+		$("#contentDcd").toggle(300);
+	  }
+						 );
+	  $("#contentDcd").hide();
+	  $('form[id="callBackForm"]').validate({
+		rules: {
+		  name: 'required',
+		  mobile:{
+			required: true,
+			minlength: 10,
+			maxlength:10,
+		  }
+		  ,
+		  hour:'required',
+		  minutes:'required',
+		  median: 'required',
+		  product:'required',
+		  query:'required',
+		  agreement:'required',
+		}
+		,
+		messages: {
+		  name: 'Please enter your full name',
+		  mobile: 'Enter 10 digit mobile number',
+		  hour:'Enter hours',
+		  minutes:'Enter minutes',
+		  median:'Enter median',
+		  product:'Please select a product',
+		  query:'Please enter your query',
+		  agreement:'This field is required',
+		}
+		,
+		invalidHandler: function(event, validator) {
+		  var errors = validator.numberOfInvalids();
+		  if(errors){
+			setTimeout(function() {
+			  $("label.error").fadeOut('fast');
+			}
+					   , 10000);
+		  }
+		}
+		,
+		submitHandler: function(form) {
+		  var name=$('#name').val();
+		  var mobile=$('#mobilenumber').val();
+		  var hour=$('#hour').val();
+		  var minutes=$('#minutes').val();
+		  var median=$('#median').val();
+		  var product=$('#product').val();
+		  var query=$('#query').val();
+		  var agreement=$('#agreement').val();
+		  var d = new Date();
+		  var month = d.getMonth()+1;
+		  var day = d.getDate();
+		  var output = ((''+month).length<2 ? '0' : '') + month + '/' +
+			  ((''+day).length<2 ? '0' : '') + day+'/'+d.getFullYear();
+		  $.ajax({
+			url:'/callback',
+			data: {
+			  'name':name,'mobile':mobile,
+			  'hour':hour,'minutes':minutes,'median':median,'agreement':agreement,'product':product,'query':query,'created_date':output}
+			,
+			type:'POST',
+			dataType: 'json',
+			success:function(data){
+			  if(data.code==1){
+				document.getElementById("callBackForm").reset();
+				$('#success').html(data.msg);
+				setTimeout(function() {
+				  $('#success').fadeOut('fast');
+				}
+						   , 3000);
+			  }
+			  else{
+				$('#errormsg').html(data.msg);
+				setTimeout(function() {
+				  $('#errormsg').fadeOut('fast');
+				}
+						   , 3000);
+			  }
+			}
+		  }
+				);
+		}
+	  }
+										   );
+	}
+					 );
+  </script>    </footer>
+	<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/lib/toastr/js/toastr.2.0.3.min.js"></script>
+    <script src="/lib/owl-carousel/js/owl.carousel.2.3.4.min.js"></script>
+    <script src="/lib/mag-popup/js/jquery.magnific-popup.1.1.0.min.js"></script>
+    <script src="/lib/select2/js/select2.4.1.0-rc.min.js"></script>
+    <script src="/sites/default/js/site.js"></script>
+    <script src="/lib/jquery/js/jquery-ui.js"></script>
+<script src="/lib/jquery/dist/jquery.validate.min.js"></script>
+<script src="/uploads/js/ion.rangeSlider.js"></script>
+<script src="/uploads/js/main.js"></script>
+<script src="/uploads/js/site.js"></script>
+
+    
+
+    <script src="/lib/token-input/dist/js/jquery.tokeninput.js"></script>
+    <script src="/lib/summernote/js/summernote-bs5.0.8.20.min.js"></script>
+    <script src="/lib/simple-pagination/js/jquery.simplePagination.js"></script>
+    <script src="/lib/liquid/js/liquid.browser.min.js"></script>
+</body>
+</html>
