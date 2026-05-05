@@ -1145,8 +1145,9 @@ ul, ol {
 
 .partners__track {
     display: flex;
+    gap: 8px;
     width: max-content;
-    animation: marquee 60s linear infinite;
+    animation: marquee 40s linear infinite;
 }
 
 .partners__track:hover {
