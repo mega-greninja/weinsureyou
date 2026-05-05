@@ -1136,18 +1136,22 @@ ul, ol {
 }
 
 .partners__marquee {
-    width: 100%;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     overflow: hidden;
-    mask-image: linear-gradient(90deg, transparent, black 5%, black 95%, transparent);
-    -webkit-mask-image: linear-gradient(90deg, transparent, black 5%, black 95%, transparent);
+    mask-image: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
     margin-top: var(--space-xl);
 }
 
 .partners__track {
-    display: flex;
-    gap: 8px;
-    width: max-content;
-    animation: marquee 40s linear infinite;
+    display: inline-flex;
+    gap: 12px;
+    white-space: nowrap;
+    animation: marquee 18s linear infinite;
+    will-change: transform;
 }
 
 .partners__track:hover {
@@ -1191,8 +1195,8 @@ ul, ol {
 }
 
 @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }
 
 /* ============================================

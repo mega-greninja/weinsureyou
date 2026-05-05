@@ -416,7 +416,15 @@
        ============================================ */
     const partnersTrack = document.querySelector('.partners__track');
     if (partnersTrack) {
-        // Pause animation when any partner item is focused (keyboard navigation)
+        const items = partnersTrack.querySelectorAll('.partners__item');
+        const half = items.length / 2;
+        if (items.length <= 25) {
+            items.forEach(item => {
+                const clone = item.cloneNode(true);
+                partnersTrack.appendChild(clone);
+            });
+        }
+
         partnersTrack.addEventListener('focusin', () => {
             partnersTrack.style.animationPlayState = 'paused';
         });
